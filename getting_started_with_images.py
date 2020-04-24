@@ -1,7 +1,7 @@
 import cv2
 
 # to read from file, you can  give the file name in place of 0
-cap = cv2.VideoCapture(0); #or -1 1 for second cam
+cap = cv2.VideoCapture(1); #or -1 1 for second cam
 
 while (True):
     ret, frame = cap.read() #retirn true if frame is available
